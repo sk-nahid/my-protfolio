@@ -192,3 +192,68 @@ padding-bottom: 30px;
     
     text-align: center;
 }
+
+.hide{
+    display: none;
+}
+@media screen and (max-width:576px) {
+
+    .skill-items{
+        flex-direction: column;
+        padding: 40px;
+    }
+    .skill-summary-containar{
+        flex-direction: column;
+        padding: 40px;
+        width: 95%;
+    }
+    .container-items{
+        width: 95%;
+        padding:  20px 20px;
+    }
+    p{
+        font-size: 2.5rem;
+    }
+    .skill-item>h5 {
+        font-size: 40px;
+        font-weight: 700;
+        margin:  5px 0;
+    }
+    .about-items{
+        flex-direction: column;
+    }
+    .skill-title{
+        font-size: 35px;
+    }
+    .skill-subtitle{
+        font-size: 30px;
+    }
+    .skill-summay{
+        font-size: 25px;
+    }
+    .section-heading{
+        font-size: 50px;
+    }
+    .summary-colum>h3{
+        font-size: 40px;
+    }
+    .btn-primary{
+        font-size: 30px;
+        padding: 10px 40px;
+    }
+    .nav-bar{
+        flex-direction: column;
+        margin: 0;
+    }
+    .header{
+        background-image: none;
+        
+    }
+    .banner{
+        flex-direction: column;
+        
+        
+    }
+    
+    
+}
